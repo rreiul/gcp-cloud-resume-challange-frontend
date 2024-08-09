@@ -1,0 +1,130 @@
+
+body {
+    font-family: "Pokémon DP Pro";
+    background-color: #efe79c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card-outside {
+    height: 473px;
+    width: 640px;
+    background-color: #737373;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+.card {
+    height: 448px;
+    width: 618px;
+    background: #4B4B4B;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+.top {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom {
+    margin-top: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 13px;
+}
+
+.bottom-sub {
+    width: 97%;
+    height: 40px;
+    background-color: #848484;
+    border-radius: 5px;
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3px;
+}
+
+.text {
+    font-size: 40px;
+    color: #ffff73;
+    text-shadow: 3px 2px 0px rgba(57, 57, 57, 1);
+    margin-right: 6px;
+    margin-left: 2px;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
+.top-sub {
+    width: 97%;
+    height: 40px;
+    background-color: #848484;
+    border-radius: 10px;
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-sub-space {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.stars { 
+    height: 40px;
+}
+
+.photo {
+    height: 192px;
+    width: 192px;
+    border-radius: 12px;
+    background-color: #636363;
+    border: solid;
+    border-color: #393939;
+    border-width: 3px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 53px;
+    padding-top: 36px;
+    align-items: center;
+}
+
+.trainer {
+    font-size: 42px;
+    margin: 0px;
+    color: #ffff73;
+    text-shadow: 3px 2px 0px rgba(57, 57, 57, 1);
+    transform: scaleY(0.85);
+    font-weight: bold;
+}
+
+.trainer-card {
+    margin : 0px 5px;
+    height: 40px;
+    padding: 0px;
+}
